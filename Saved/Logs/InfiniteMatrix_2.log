@@ -632,3 +632,13 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.05.26-06.12.08:866][932]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
 [2019.05.26-06.12.08:903][933]LogPlayLevel: Display: Destroying online subsystem :Context_1
 [2019.05.26-06.12.26:912][ 68]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.26-06.16.25:530][ 36]LogHttp: Warning: 000001EA68FE6980: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.05.26-06.16.25:532][ 36]LogHttp: Warning: 000001EA68FE6980: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1ea201abf70 [can pipeline])
+[2019.05.26-06.16.25:532][ 36]LogHttp: Warning: 000001EA68FE6980: libcurl info message cache 1 (Re-using existing connection! (#94) with host datarouter.ol.epicgames.com)
+[2019.05.26-06.16.25:533][ 36]LogHttp: Warning: 000001EA68FE6980: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.209.142.114) port 443 (#94))
+[2019.05.26-06.16.25:533][ 36]LogHttp: Warning: 000001EA68FE6980: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.05.26-06.16.25:533][ 36]LogHttp: Warning: 000001EA68FE6980: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.05.26-06.16.25:533][ 36]LogHttp: Warning: 000001EA68FE6980: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.05.26-06.16.25:533][ 36]LogHttp: Warning: 000001EA68FE6980: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.05.26-06.16.25:533][ 36]LogHttp: Warning: 000001EA68FE6980: libcurl info message cache 7 (Closing connection 94)
+[2019.05.26-06.16.25:533][ 36]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBCB7D71D-42C1-A520-67FF-58BA73F77157%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.2-6574378%2B%2B%2BUE4%2BRelease-4.22&UserID=c23ff326442d1224e4558c9192a3a968%7C75d3919b08194cf6acb7c63bb9aaf1cc%7Cd82e9d82-40bb-4b99-85ad-5276bd1e6f44&AppEnvironment=datacollector-binary&UploadType=eteventstream
